@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>false</disabled>
+        <field>valor_proposto</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-09 11:44:33</sys_created_on>
+        <sys_id>d37189d39752b510c400746e6253afce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>valor_proposto</sys_name>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name>sys_ui_policy_action_d37189d39752b510c400746e6253afce</sys_update_name>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 11:44:33</sys_updated_on>
+        <table>x_babsa_acordos_1_acordo</table>
+        <ui_policy display_value="Caso o acordo seja recusado pelo valor de proposta inicial e seja feita uma oferta de um novo valor da parte do autor, este campo é obrigatório.">df3105d39752b510c400746e6253af7d</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

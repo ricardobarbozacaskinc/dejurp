@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_form_sections form_id="bc6eb0cb479a751094fa2fe4126d43cd" sys_domain="global" table="x_babsa_acordos_1_acordo" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 16:52:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f86e74cb479a751094fa2fe4126d4302</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_babsa_acordos_1_acordo" name="x_babsa_acordos_1_acordo" sys_domain="global" view="1f5eb0cbdf9a7510302099140a9b79f2">bc6eb0cb479a751094fa2fe4126d43cd</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_babsa_acordos_1_acordo" sys_domain="global" view="1f5eb0cbdf9a7510302099140a9b79f2">746eb0cb479a751094fa2fe4126d43d1</sys_ui_section>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 16:52:10</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_babsa_acordos_1_acordo</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 16:52:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bc6eb0cb479a751094fa2fe4126d43cd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_babsa_acordos_1_acordo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+            <sys_update_name>sys_ui_form_sections_bc6eb0cb479a751094fa2fe4126d43cd</sys_update_name>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 16:52:09</sys_updated_on>
+            <sys_user/>
+            <view display_value="Workspace ACORDOS DEJUR2 ESCRITORIOS 0" name="workspace-acordos-dejur2-escritorios-0">1f5eb0cbdf9a7510302099140a9b79f2</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

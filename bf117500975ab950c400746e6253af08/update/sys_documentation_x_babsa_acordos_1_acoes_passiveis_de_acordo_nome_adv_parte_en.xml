@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="nome_adv_parte" label="NOME_ADV_PARTE" language="en" table="x_babsa_acordos_1_acoes_passiveis_de_acordo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>nome_adv_parte</element>
+            <help/>
+            <hint/>
+            <label>NOME_ADV_PARTE</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acoes_passiveis_de_acordo</name>
+            <plural>NOME_ADV_PARTEs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-30 13:01:44</sys_created_on>
+            <sys_id>f1533d80975ab950c400746e6253af63</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>NOME_ADV_PARTE</sys_name>
+            <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+            <sys_update_name>sys_documentation_x_babsa_acordos_1_acoes_passiveis_de_acordo_nome_adv_parte_en</sys_update_name>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-30 13:01:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

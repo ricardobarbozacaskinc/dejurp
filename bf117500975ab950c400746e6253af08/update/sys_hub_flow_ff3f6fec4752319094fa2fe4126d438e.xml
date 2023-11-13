@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=691753000,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Caso o autor proponha um novo valor para acordo</description>
+        <internal_name>deciso_outro_valor_para_acordo</internal_name>
+        <label_cache>[{"name":"574533a5-4d6d-4541-a7f4-9826853cc9d3.record","label":"1 - Update Record➛ACORDO Record","reference":"x_babsa_acordos_1_acordo","reference_display":"ACORDO","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.valor_teto","label":"Trigger - Record Updated➛ACORDO Record➛VALOR TETO","reference":"","reference_display":"VALOR TETO","type":"decimal","base_type":"decimal","parent_table_name":"x_babsa_acordos_1_acordo","column_name":"valor_teto"},{"name":"Updated_1.current.valor_proposto","label":"Trigger - Record Updated➛ACORDO Record➛Valor Proposto","reference":"","reference_display":"Valor Proposto","type":"decimal","base_type":"decimal","parent_table_name":"x_babsa_acordos_1_acordo","column_name":"valor_proposto"},{"name":"Updated_1.current.state","label":"Trigger - Record Updated➛ACORDO Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_babsa_acordos_1_acordo","column_name":"state","choices":[{"label":"Novo Pedido","used":false,"image":"","reference":false,"rawLabel":"Novo Pedido","selected":false,"missing":false,"value":"1","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Contato Realizado","used":false,"image":"","reference":false,"rawLabel":"Contato Realizado","selected":false,"missing":false,"value":"18","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Aceito - Finalizado","used":false,"image":"","reference":false,"rawLabel":"Aceito - Finalizado","selected":false,"missing":false,"value":"11","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Recausado/Litígio - Finalizado","used":false,"image":"","reference":false,"rawLabel":"Recausado/Litígio - Finalizado","selected":false,"missing":false,"value":"12","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Novo Valor Proposto","used":false,"image":"","reference":false,"rawLabel":"Novo Valor Proposto","selected":false,"missing":false,"value":"13","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Teto Mantido","used":false,"image":"","reference":false,"rawLabel":"Teto Mantido","selected":false,"missing":false,"value":"14","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Contra Proposta","used":false,"image":"","reference":false,"rawLabel":"Contra Proposta","selected":false,"missing":false,"value":"16","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Finalizado","used":false,"image":"","reference":false,"rawLabel":"Finalizado","selected":false,"missing":false,"value":"17","parameters":{"name":"x_babsa_acordos_1_acordo"}}]},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ACORDO Record","reference":"x_babsa_acordos_1_acordo","reference_display":"ACORDO","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master_snapshot>1fb44a9e471eb11094fa2fe4126d435c</master_snapshot>
+        <name>Decisão Outro Valor para Acordo </name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id>2fb44a9e471eb11094fa2fe4126d43b4</remote_trigger_id>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-01 11:20:02</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ff3f6fec4752319094fa2fe4126d438e</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Decisão Outro Valor para Acordo </sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name>sys_hub_flow_ff3f6fec4752319094fa2fe4126d438e</sys_update_name>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_flow_record_trigger action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_babsa_acordos_1_acordo">state=13<item display_value="Novo Valor Proposto" endquery="false" field="state" goto="false" newquery="false" operator="=" or="false" value="13"/>
+        </condition>
+        <name/>
+        <on_delete>false</on_delete>
+        <on_insert>false</on_insert>
+        <on_update>true</on_update>
+        <run_flow_in>background</run_flow_in>
+        <run_on_extended>false</run_on_extended>
+        <run_when_setting>both</run_when_setting>
+        <run_when_user_list/>
+        <run_when_user_setting>any</run_when_user_setting>
+        <sys_class_name>sys_flow_record_trigger</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:06</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2fb44a9e471eb11094fa2fe4126d43b4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:06</sys_updated_on>
+        <table>x_babsa_acordos_1_acordo</table>
+    </sys_flow_record_trigger>
+    <sys_trigger_runner_mapping action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <data>{"run_flow_in":"background","run_when_user_list":[],"run_when_setting":"both","run_when_user_setting":"any","run_on_extended":"false"}</data>
+        <identifier>ff3f6fec4752319094fa2fe4126d438e</identifier>
+        <runner>FDTriggerRunner</runner>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-09 10:29:17</sys_created_on>
+        <sys_id>9a5030939712b510c400746e6253aff1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <trigger display_value="">2fb44a9e471eb11094fa2fe4126d43b4</trigger>
+    </sys_trigger_runner_mapping>
+    <sys_trigger_runner_mapping action="delete_multiple" query="identifier=ff3f6fec4752319094fa2fe4126d438e^sys_idNOT IN9a5030939712b510c400746e6253aff1"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=ff3f6fec4752319094fa2fe4126d438e^sys_idNOT IN700ab992471eb11094fa2fe4126d4318"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Decisão Outro Valor para Acordo ">ff3f6fec4752319094fa2fe4126d438e</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 13:17:13</sys_created_on>
+        <sys_id>700ab992471eb11094fa2fe4126d4318</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:18</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=700ab992471eb11094fa2fe4126d4318"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>700ab992471eb11094fa2fe4126d4318</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 13:17:13</sys_created_on>
+        <sys_id>b00ab992471eb11094fa2fe4126d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 13:17:13</sys_updated_on>
+        <value>state=13</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>700ab992471eb11094fa2fe4126d4318</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 13:17:13</sys_created_on>
+        <sys_id>f80ab992471eb11094fa2fe4126d4319</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 13:17:13</sys_updated_on>
+        <value>x_babsa_acordos_1_acordo</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=700ab992471eb11094fa2fe4126d4318"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ff3f6fec4752319094fa2fe4126d438e^sys_idNOT INbb3f6fec4752319094fa2fe4126d438f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ff3f6fec4752319094fa2fe4126d438e</id>
+        <name>Decisão Outro Valor para Acordo </name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-01 11:20:02</sys_created_on>
+        <sys_id>bb3f6fec4752319094fa2fe4126d438f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-01 11:20:02</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bb3f6fec4752319094fa2fe4126d438f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ff3f6fec4752319094fa2fe4126d438e^sys_idNOT INb00ab992471eb11094fa2fe4126d4313,e80ab992471eb11094fa2fe4126d430a,f80ab992471eb11094fa2fe4126d430f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Decisão Outro Valor para Acordo ">ff3f6fec4752319094fa2fe4126d438e</model>
+        <model_id>ff3f6fec4752319094fa2fe4126d438e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ff3f6fec4752319094fa2fe4126d438e</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 13:17:13</sys_created_on>
+        <sys_id>b00ab992471eb11094fa2fe4126d4313</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=b00ab992471eb11094fa2fe4126d4313"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Decisão Outro Valor para Acordo ">ff3f6fec4752319094fa2fe4126d438e</model>
+        <model_id>ff3f6fec4752319094fa2fe4126d438e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ff3f6fec4752319094fa2fe4126d438e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 13:17:12</sys_created_on>
+        <sys_id>e80ab992471eb11094fa2fe4126d430a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=e80ab992471eb11094fa2fe4126d430a"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Decisão Outro Valor para Acordo ">ff3f6fec4752319094fa2fe4126d438e</model>
+        <model_id>ff3f6fec4752319094fa2fe4126d438e</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ff3f6fec4752319094fa2fe4126d438e</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 13:17:13</sys_created_on>
+        <sys_id>f80ab992471eb11094fa2fe4126d430f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 13:17:13</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=f80ab992471eb11094fa2fe4126d430f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=ff3f6fec4752319094fa2fe4126d438e^sys_idNOT INb9b40a9e471eb11094fa2fe4126d435f"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Decisão Outro Valor para Acordo ">ff3f6fec4752319094fa2fe4126d438e</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:03:59</sys_created_on>
+        <sys_id>b9b40a9e471eb11094fa2fe4126d435f</sys_id>
+        <sys_mod_count>16</sys_mod_count>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:18</sys_updated_on>
+        <ui_id>574533a5-4d6d-4541-a7f4-9826853cc9d3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=b9b40a9e471eb11094fa2fe4126d435f"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b9b40a9e471eb11094fa2fe4126d435f</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:03:59</sys_created_on>
+        <sys_id>3db40a9e471eb11094fa2fe4126d436e</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 17:57:21</sys_updated_on>
+        <value>historico=Advogado da Parte Recusa o Valor e Propõe outro Valor Acima do Teto.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>b9b40a9e471eb11094fa2fe4126d435f</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:03:59</sys_created_on>
+        <sys_id>f1b40a9e471eb11094fa2fe4126d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:03:59</sys_updated_on>
+        <value>x_babsa_acordos_1_acordo</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=b9b40a9e471eb11094fa2fe4126d435f"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>b9b40a9e471eb11094fa2fe4126d435f</id>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:03:59</sys_created_on>
+        <sys_id>b9b40a9e471eb11094fa2fe4126d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>b9b40a9e471eb11094fa2fe4126d435f</id>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:03:59</sys_created_on>
+        <sys_id>31b40a9e471eb11094fa2fe4126d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>b9b40a9e471eb11094fa2fe4126d435f</id>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:03:59</sys_created_on>
+        <sys_id>f5b40a9e471eb11094fa2fe4126d436e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:03:59</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=b9b40a9e471eb11094fa2fe4126d435f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=b9b40a9e471eb11094fa2fe4126d435f"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_ff3f6fec4752319094fa2fe4126d438e^sys_idNOT IN740ab992471eb11094fa2fe4126d4315,f00ab992471eb11094fa2fe4126d4312,f40ab992471eb11094fa2fe4126d430e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ff3f6fec4752319094fa2fe4126d438e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 13:17:13</sys_created_on>
+        <sys_id>740ab992471eb11094fa2fe4126d4315</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 13:17:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ff3f6fec4752319094fa2fe4126d438e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 13:17:13</sys_created_on>
+        <sys_id>f00ab992471eb11094fa2fe4126d4312</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 13:17:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ff3f6fec4752319094fa2fe4126d438e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 13:17:13</sys_created_on>
+        <sys_id>f40ab992471eb11094fa2fe4126d430e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 13:17:13</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ff3f6fec4752319094fa2fe4126d438e"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name/>
+        <description>Caso o autor proponha um novo valor para acordo</description>
+        <internal_name>deciso_outro_valor_para_acordo</internal_name>
+        <label_cache>[{"name":"574533a5-4d6d-4541-a7f4-9826853cc9d3.record","label":"1 - Update Record➛ACORDO Record","reference":"x_babsa_acordos_1_acordo","reference_display":"ACORDO","type":"reference","base_type":"reference","attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"Updated_1.current.valor_teto","label":"Trigger - Record Updated➛ACORDO Record➛VALOR TETO","reference":"","reference_display":"VALOR TETO","type":"decimal","base_type":"decimal","parent_table_name":"x_babsa_acordos_1_acordo","column_name":"valor_teto"},{"name":"Updated_1.current.valor_proposto","label":"Trigger - Record Updated➛ACORDO Record➛Valor Proposto","reference":"","reference_display":"Valor Proposto","type":"decimal","base_type":"decimal","parent_table_name":"x_babsa_acordos_1_acordo","column_name":"valor_proposto"},{"name":"Updated_1.current.state","label":"Trigger - Record Updated➛ACORDO Record➛State","reference":"","reference_display":"State","type":"choice","base_type":"choice","parent_table_name":"x_babsa_acordos_1_acordo","column_name":"state","choices":[{"label":"Novo Pedido","used":false,"image":"","reference":false,"rawLabel":"Novo Pedido","selected":false,"missing":false,"value":"1","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Contato Realizado","used":false,"image":"","reference":false,"rawLabel":"Contato Realizado","selected":false,"missing":false,"value":"18","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Aceito - Finalizado","used":false,"image":"","reference":false,"rawLabel":"Aceito - Finalizado","selected":false,"missing":false,"value":"11","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Recausado/Litígio - Finalizado","used":false,"image":"","reference":false,"rawLabel":"Recausado/Litígio - Finalizado","selected":false,"missing":false,"value":"12","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Novo Valor Proposto","used":false,"image":"","reference":false,"rawLabel":"Novo Valor Proposto","selected":false,"missing":false,"value":"13","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Teto Mantido","used":false,"image":"","reference":false,"rawLabel":"Teto Mantido","selected":false,"missing":false,"value":"14","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Contra Proposta","used":false,"image":"","reference":false,"rawLabel":"Contra Proposta","selected":false,"missing":false,"value":"16","parameters":{"name":"x_babsa_acordos_1_acordo"}},{"label":"Finalizado","used":false,"image":"","reference":false,"rawLabel":"Finalizado","selected":false,"missing":false,"value":"17","parameters":{"name":"x_babsa_acordos_1_acordo"}}]},{"name":"Updated_1.current","label":"Trigger - Record Updated➛ACORDO Record","reference":"x_babsa_acordos_1_acordo","reference_display":"ACORDO","type":"reference","base_type":"reference","attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Decisão Outro Valor para Acordo </name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Decisão Outro Valor para Acordo ">ff3f6fec4752319094fa2fe4126d438e</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>1fb44a9e471eb11094fa2fe4126d435c</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_variable_value action="delete_multiple" query="document_key=1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_hub_trigger_instance action="delete_multiple" query="flow=1fb44a9e471eb11094fa2fe4126d435c^sys_idNOT INebb44a9e471eb11094fa2fe4126d43a6"/>
+    <sys_hub_trigger_instance action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value="Decisão Outro Valor para Acordo ">1fb44a9e471eb11094fa2fe4126d435c</flow>
+        <name>Updated</name>
+        <remote_sys_id/>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>ebb44a9e471eb11094fa2fe4126d43a6</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs/>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+    </sys_hub_trigger_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=ebb44a9e471eb11094fa2fe4126d43a6"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ebb44a9e471eb11094fa2fe4126d43a6</document_key>
+        <order>1</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>2bb44a9e471eb11094fa2fe4126d43a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+        <value>x_babsa_acordos_1_acordo</value>
+        <variable display_value="Table">1dda12e0c31322002841b63b12d3aea8</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_trigger_instance</document>
+        <document_key>ebb44a9e471eb11094fa2fe4126d43a6</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>67b44a9e471eb11094fa2fe4126d43a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+        <value>state=13</value>
+        <variable display_value="Condition">bb9adea0c31322002841b63b12d3ae67</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="table=var__m_sys_hub_trigger_output_bb695e60c31322002841b63b12d3aea5^id=ebb44a9e471eb11094fa2fe4126d43a6"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=1fb44a9e471eb11094fa2fe4126d435c^sys_idNOT IN9fb44a9e471eb11094fa2fe4126d435d"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>1fb44a9e471eb11094fa2fe4126d435c</id>
+        <name>Decisão Outro Valor para Acordo </name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>9fb44a9e471eb11094fa2fe4126d435d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=9fb44a9e471eb11094fa2fe4126d435d"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=1fb44a9e471eb11094fa2fe4126d435c^sys_idNOT IN17b44a9e471eb11094fa2fe4126d435f,1fb44a9e471eb11094fa2fe4126d4393,dbb44a9e471eb11094fa2fe4126d438b"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Decisão Outro Valor para Acordo ">1fb44a9e471eb11094fa2fe4126d435c</model>
+        <model_id>1fb44a9e471eb11094fa2fe4126d435c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1fb44a9e471eb11094fa2fe4126d435c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>17b44a9e471eb11094fa2fe4126d435f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=17b44a9e471eb11094fa2fe4126d435f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value="Decisão Outro Valor para Acordo ">1fb44a9e471eb11094fa2fe4126d435c</model>
+        <model_id>1fb44a9e471eb11094fa2fe4126d435c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1fb44a9e471eb11094fa2fe4126d435c</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>1fb44a9e471eb11094fa2fe4126d4393</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=1fb44a9e471eb11094fa2fe4126d4393"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value="Decisão Outro Valor para Acordo ">1fb44a9e471eb11094fa2fe4126d435c</model>
+        <model_id>1fb44a9e471eb11094fa2fe4126d435c</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_1fb44a9e471eb11094fa2fe4126d435c</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>dbb44a9e471eb11094fa2fe4126d438b</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=dbb44a9e471eb11094fa2fe4126d438b"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_hub_action_instance action="delete_multiple" query="flow=1fb44a9e471eb11094fa2fe4126d435c^sys_idNOT INdbb44a9e471eb11094fa2fe4126d43a4"/>
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <display_text/>
+        <flow display_value="Decisão Outro Valor para Acordo ">1fb44a9e471eb11094fa2fe4126d435c</flow>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>dbb44a9e471eb11094fa2fe4126d43a4</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <ui_id>574533a5-4d6d-4541-a7f4-9826853cc9d3</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=dbb44a9e471eb11094fa2fe4126d43a4"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbb44a9e471eb11094fa2fe4126d43a4</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>27b44a9e471eb11094fa2fe4126d43a6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:16</sys_updated_on>
+        <value>historico=Advogado da Parte Recusa o Valor e Propõe outro Valor Acima do Teto.</value>
+        <variable display_value="Fields">02d01916c31332002841b63b12d3aeee</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>dbb44a9e471eb11094fa2fe4126d43a4</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>e7b44a9e471eb11094fa2fe4126d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+        <value>x_babsa_acordos_1_acordo</value>
+        <variable display_value="Table">b5d01916c31332002841b63b12d3aec9</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=dbb44a9e471eb11094fa2fe4126d43a4"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>record</field>
+        <id>dbb44a9e471eb11094fa2fe4126d43a4</id>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>a3b44a9e471eb11094fa2fe4126d43a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value>{{Updated_1.current}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>table_name</field>
+        <id>dbb44a9e471eb11094fa2fe4126d43a4</id>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>2fb44a9e471eb11094fa2fe4126d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>values</field>
+        <id>dbb44a9e471eb11094fa2fe4126d43a4</id>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>efb44a9e471eb11094fa2fe4126d43a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+        <table>var__m_sys_hub_action_input_f9d01dd2c31332002841b63b12d3aea1</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_hub_input_scripts action="delete_multiple" query="instance=dbb44a9e471eb11094fa2fe4126d43a4"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=dbb44a9e471eb11094fa2fe4126d43a4"/>
+    <sys_hub_sub_flow_instance action="delete_multiple" query="flow=1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_hub_flow_logic action="delete_multiple" query="flow=1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_input_1fb44a9e471eb11094fa2fe4126d435c^sys_idNOT IN53b44a9e471eb11094fa2fe4126d4398,93b44a9e471eb11094fa2fe4126d4388,d3b44a9e471eb11094fa2fe4126d4390"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1fb44a9e471eb11094fa2fe4126d435c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>53b44a9e471eb11094fa2fe4126d4398</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1fb44a9e471eb11094fa2fe4126d435c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>93b44a9e471eb11094fa2fe4126d4388</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_1fb44a9e471eb11094fa2fe4126d435c</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-06 14:04:05</sys_created_on>
+        <sys_id>d3b44a9e471eb11094fa2fe4126d4390</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-06 14:04:05</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1fb44a9e471eb11094fa2fe4126d435c"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>ff3f6fec4752319094fa2fe4126d438e</sys_id>
+        <latest_snapshot>1fb44a9e471eb11094fa2fe4126d435c</latest_snapshot>
+        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ff3f6fec4752319094fa2fe4126d438e^sys_idNOT IN165030939712b510c400746e6253aff2"/>
+    <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
+        <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
+        <plan/>
+        <plan_id>ff3f6fec4752319094fa2fe4126d438e</plan_id>
+        <snapshot>1fb44a9e471eb11094fa2fe4126d435c</snapshot>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-09 10:29:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>165030939712b510c400746e6253aff2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 10:29:17</sys_updated_on>
+        <trigger display_value="">2fb44a9e471eb11094fa2fe4126d43b4</trigger>
+    </sys_flow_trigger_plan>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ff3f6fec4752319094fa2fe4126d438e"/>
+</record_update>

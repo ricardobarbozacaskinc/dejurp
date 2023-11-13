@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="ACORDOS-DEJUR2-DEJUR App Config">727abbf2cc9675105e55af9f168cc650</app_config>
+        <description/>
+        <disable_auto_reflow>false</disable_auto_reflow>
+        <event_mappings>[
+    
+]</event_mappings>
+        <macroponent display_value="Record Default">267abbf2199675108e4167e04f785841</macroponent>
+        <macroponent_config>{
+    "label": {
+        "type": "TRANSLATION_LITERAL",
+        "value": {
+            "code": null,
+            "message": "",
+            "comment": ""
+        }
+    },
+    "bare": {
+        "type": "JSON_LITERAL",
+        "value": true
+    },
+    "scrollable": {
+        "type": "JSON_LITERAL",
+        "value": "y"
+    },
+    "headerLevel": {
+        "type": "JSON_LITERAL",
+        "value": "1"
+    },
+    "headingOnlyVisibleToScreenReaders": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "interceptNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    },
+    "propagateNotifications": {
+        "type": "JSON_LITERAL",
+        "value": false
+    }
+}</macroponent_config>
+        <name>Record Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[ ]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Record">227abbf2bb967510462c59d919c63045</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-08 11:55:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a67abbf28f967510766b22ec860de63c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Record Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name>sys_ux_screen_a67abbf28f967510766b22ec860de63c</sys_update_name>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-08 11:55:28</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=a67abbf28f967510766b22ec860de63c"/>
+</record_update>

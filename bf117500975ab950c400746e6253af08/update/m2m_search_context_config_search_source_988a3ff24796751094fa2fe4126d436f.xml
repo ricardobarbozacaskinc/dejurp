@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_search_context_config_search_source">
+    <m2m_search_context_config_search_source action="INSERT_OR_UPDATE">
+        <order>100</order>
+        <search_context_config display_value="ACORDOS-DEJUR2-DEJUR - Workspace Search">ae7abbf26d9675108916d42734298646</search_context_config>
+        <source display_value="ACORDOS-DEJUR2-DEJUR - x_babsa_acordos_1_acordo">d88a3ff24796751094fa2fe4126d436c</source>
+        <sys_class_name>m2m_search_context_config_search_source</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-08 11:55:34</sys_created_on>
+        <sys_id>988a3ff24796751094fa2fe4126d436f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name>m2m_search_context_config_search_source_988a3ff24796751094fa2fe4126d436f</sys_update_name>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-08 11:55:34</sys_updated_on>
+    </m2m_search_context_config_search_source>
+</record_update>

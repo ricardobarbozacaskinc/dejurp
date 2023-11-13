@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="INSERT_OR_UPDATE">
+        <choices/>
+        <description/>
+        <name>chrome_footer</name>
+        <page display_value="ACORDOS-DEJUR2-ESCRITORIOS">1b5eb0cb5b9a75109737800017c137fc</page>
+        <required_translations>[ ]</required_translations>
+        <route/>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-08 16:52:05</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>975eb0cbf29a7510fa5036aca0698fec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_footer</sys_name>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name>sys_ux_page_property_975eb0cbf29a7510fa5036aca0698fec</sys_update_name>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-08 16:52:05</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_babsa_acordos_1.1b5eb0cb5b9a75109737800017c137fc.root.chrome_footer</unique_name>
+        <value>{"public_page":{"enable_footer_topbar":false,"footer_topbar_options":{},"enable_footer_bar":false,"footer_bar_options":{}}}</value>
+    </sys_ux_page_property>
+    <sys_translated_text action="delete_multiple" query="documentkey=975eb0cbf29a7510fa5036aca0698fec"/>
+</record_update>

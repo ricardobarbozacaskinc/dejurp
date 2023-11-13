@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="" section_id="348a3ff24796751094fa2fe4126d43eb" sys_domain="global" table="x_babsa_acordos_1_acordo" version="3" view="workspace-acordos-dejur2-dejur-0">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 11:55:36</sys_created_on>
+            <sys_id>788a3ff24796751094fa2fe4126d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_babsa_acordos_1_acordo" sys_domain="global" view="ee7abbf282967510bbf1e3a9abfc6f45">348a3ff24796751094fa2fe4126d43eb</sys_ui_section>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 11:55:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>assignment_group</element>
+            <position>1</position>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 11:55:36</sys_created_on>
+            <sys_id>fc8a3ff24796751094fa2fe4126d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_babsa_acordos_1_acordo" sys_domain="global" view="ee7abbf282967510bbf1e3a9abfc6f45">348a3ff24796751094fa2fe4126d43eb</sys_ui_section>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 11:55:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <position>2</position>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 11:55:36</sys_created_on>
+            <sys_id>708a3ff24796751094fa2fe4126d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_babsa_acordos_1_acordo" sys_domain="global" view="ee7abbf282967510bbf1e3a9abfc6f45">348a3ff24796751094fa2fe4126d43eb</sys_ui_section>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 11:55:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 11:55:36</sys_created_on>
+            <sys_id>f88a3ff24796751094fa2fe4126d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_babsa_acordos_1_acordo" sys_domain="global" view="ee7abbf282967510bbf1e3a9abfc6f45">348a3ff24796751094fa2fe4126d43eb</sys_ui_section>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 11:55:36</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <position>4</position>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 11:55:36</sys_created_on>
+            <sys_id>f48a3ff24796751094fa2fe4126d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_babsa_acordos_1_acordo" sys_domain="global" view="ee7abbf282967510bbf1e3a9abfc6f45">348a3ff24796751094fa2fe4126d43eb</sys_ui_section>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 11:55:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <position>5</position>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 11:55:36</sys_created_on>
+            <sys_id>7c8a3ff24796751094fa2fe4126d43ee</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_babsa_acordos_1_acordo" sys_domain="global" view="ee7abbf282967510bbf1e3a9abfc6f45">348a3ff24796751094fa2fe4126d43eb</sys_ui_section>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 11:55:36</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_babsa_acordos_1_acordo</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 11:55:36</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>348a3ff24796751094fa2fe4126d43eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_babsa_acordos_1_acordo</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+            <sys_update_name>sys_ui_section_348a3ff24796751094fa2fe4126d43eb</sys_update_name>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 11:55:36</sys_updated_on>
+            <sys_user/>
+            <title>true</title>
+            <view display_value="Workspace ACORDOS DEJUR2 DEJUR 0" name="workspace-acordos-dejur2-dejur-0">ee7abbf282967510bbf1e3a9abfc6f45</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

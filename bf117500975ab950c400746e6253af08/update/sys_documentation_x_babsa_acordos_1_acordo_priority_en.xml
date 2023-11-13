@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="priority" label="Prioridade" language="en" table="x_babsa_acordos_1_acordo">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>priority</element>
+            <help/>
+            <hint>Sequence in which an Incident or Problem needs to be resolved, based on impact and urgency</hint>
+            <label>Prioridade</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <plural>Priorities</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-06 17:37:37</sys_created_on>
+            <sys_id>5f95fa524712f11094fa2fe4126d43d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Prioridade</sys_name>
+            <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+            <sys_update_name>sys_documentation_x_babsa_acordos_1_acordo_priority_en</sys_update_name>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-06 17:37:37</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

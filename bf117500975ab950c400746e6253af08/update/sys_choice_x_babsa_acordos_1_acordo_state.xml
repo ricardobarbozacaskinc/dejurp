@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="state" table="x_babsa_acordos_1_acordo" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>state</element>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-30 13:44:51</sys_created_on>
+            <sys_id>993d358c975ab950c400746e6253af32</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>state</sys_name>
+            <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+            <sys_update_name>sys_choice_x_babsa_acordos_1_acordo_state</sys_update_name>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-30 13:44:51</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Novo Pedido</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-31 14:03:24</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ac0bcf5c479ebd5094fa2fe4126d4379</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 14:29:53</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contato Realizado</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-07 15:19:19</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>636fdbaa47d2351094fa2fe4126d4361</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-07 15:24:42</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aceito - Finalizado</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-31 12:58:44</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>633c7218971ef950c400746e6253af31</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-07 15:24:42</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Aceito - Finalizado</label>
+            <language>pb</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-30 13:45:51</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c07d7d4c975ab950c400746e6253afae</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 12:42:48</sys_updated_on>
+            <value>11</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recausado/Litígio - Finalizado</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-31 13:00:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2facf618971ef950c400746e6253af33</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-07 15:24:42</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Recausado/Litígio - Finalizado </label>
+            <language>pb</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-30 17:26:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fccf6648471e7d5094fa2fe4126d43f0</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 12:43:11</sys_updated_on>
+            <value>12</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Novo Valor Proposto</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-31 13:01:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8eecf618971ef950c400746e6253af3a</sys_id>
+            <sys_mod_count>6</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-07 15:24:42</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Novo Valor Proposto</label>
+            <language>pb</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>4</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-30 17:26:49</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0500f6c8471e7d5094fa2fe4126d4394</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-06 17:46:37</sys_updated_on>
+            <value>13</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Teto Mantido</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-31 13:03:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d4dfe18971ef950c400746e6253af3c</sys_id>
+            <sys_mod_count>5</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-07 15:24:42</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Teto Mantido</label>
+            <language>pb</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>5</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-30 17:27:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae007ac8471e7d5094fa2fe4126d438a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 12:43:24</sys_updated_on>
+            <value>14</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Valor Aceito</label>
+            <language>pb</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-30 17:27:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4120bac8471e7d5094fa2fe4126d4376</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 12:43:34</sys_updated_on>
+            <value>15</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contra Proposta</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>6</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-31 13:04:08</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b27d3a58971ef950c400746e6253af32</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 14:05:06</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contra Proposta</label>
+            <language>pb</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-30 17:27:41</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8620f6c8471e7d5094fa2fe4126d439c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 12:46:31</sys_updated_on>
+            <value>16</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finalizado</label>
+            <language>en</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>7</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-31 13:11:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ae2ff2d8971ef950c400746e6253afc2</sys_id>
+            <sys_mod_count>4</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 14:05:06</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Novo Pedido</label>
+            <language>pb</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-31 14:01:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d8ac75c479ebd5094fa2fe4126d43f2</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 14:29:51</sys_updated_on>
+            <value>1</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Finalizado</label>
+            <language>pb</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>8</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-10-31 13:11:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>054f36d8971ef950c400746e6253afd4</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-10-31 13:56:12</sys_updated_on>
+            <value>17</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Contato Realizado</label>
+            <language>pb</language>
+            <name>x_babsa_acordos_1_acordo</name>
+            <sequence>9</sequence>
+            <synonyms/>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-07 15:19:38</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>549f5baa47d2351094fa2fe4126d431c</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-07 15:20:07</sys_updated_on>
+            <value>18</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

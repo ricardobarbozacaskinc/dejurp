@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="par_dashboard_visibility">
+    <par_dashboard_visibility action="INSERT_OR_UPDATE">
+        <dashboard display_value="ACORDOS-DEJUR2-ESCRITORIOS">d35eb0cbba9a75102be5e272049b65f5</dashboard>
+        <experience display_value="ACORDOS-DEJUR2-ESCRITORIOS">1b5eb0cb5b9a75109737800017c137fc</experience>
+        <sys_class_name>par_dashboard_visibility</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-08 16:52:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>175eb0cbd69a7510cd539093e55aa9f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name>par_dashboard_visibility_175eb0cbd69a7510cd539093e55aa9f4</sys_update_name>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-08 16:52:04</sys_updated_on>
+    </par_dashboard_visibility>
+</record_update>

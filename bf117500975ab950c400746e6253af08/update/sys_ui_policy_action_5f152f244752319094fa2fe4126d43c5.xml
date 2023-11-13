@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>valor_proposto</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-01 10:35:58</sys_created_on>
+        <sys_id>5f152f244752319094fa2fe4126d43c5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>valor_proposto</sys_name>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name>sys_ui_policy_action_5f152f244752319094fa2fe4126d43c5</sys_update_name>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-09 11:35:20</sys_updated_on>
+        <table>x_babsa_acordos_1_acordo</table>
+        <ui_policy display_value="Caso o acordo seja aceito logo de primeira, ou caso o autor não queira acordo algum, todos os campos são travados de forma que o registro seja finalizado.">0d3397d447debd5094fa2fe4126d4369</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

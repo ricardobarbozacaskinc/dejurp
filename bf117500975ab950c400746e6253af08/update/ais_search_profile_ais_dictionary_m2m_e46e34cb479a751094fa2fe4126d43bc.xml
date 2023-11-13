@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ais_search_profile_ais_dictionary_m2m">
+    <ais_search_profile_ais_dictionary_m2m action="INSERT_OR_UPDATE">
+        <dictionary display_value="x_babsa_acordos_1_acordos_dejur2_escritorios_search_profile_default_spell_check_dictionary">686e34cb479a751094fa2fe4126d43b9</dictionary>
+        <dictionary_reference_qualifier/>
+        <marked_for_deletion>false</marked_for_deletion>
+        <profile display_value="acordos-dejur2-escritorios Search Profile">575eb0cb109a751016cf0be3b73501fc</profile>
+        <sys_class_name>ais_search_profile_ais_dictionary_m2m</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-08 16:52:09</sys_created_on>
+        <sys_id>e46e34cb479a751094fa2fe4126d43bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_babsa_acordos_1_acordos_dejur2_escritorios_search_profile_default_spell_check_dictionary.acordos-dejur2-escritorios Search Profile</sys_name>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name>ais_search_profile_ais_dictionary_m2m_e46e34cb479a751094fa2fe4126d43bc</sys_update_name>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-08 16:52:09</sys_updated_on>
+    </ais_search_profile_ais_dictionary_m2m>
+</record_update>

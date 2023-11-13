@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_search_context_config">
+    <sys_search_context_config action="INSERT_OR_UPDATE">
+        <collapse_attachment>false</collapse_attachment>
+        <enable_exact_match>true</enable_exact_match>
+        <evam_definition display_value="AI Search For Next Search">f78b729b53d801109fa9ddeeff7b1201</evam_definition>
+        <genius_results_limit>1</genius_results_limit>
+        <hit_highlighting>false</hit_highlighting>
+        <name>ACORDOS-DEJUR2-ESCRITORIOS AI Search Configuration</name>
+        <search_engine>ai_search</search_engine>
+        <search_profile display_value="acordos-dejur2-escritorios Search Profile">575eb0cb109a751016cf0be3b73501fc</search_profile>
+        <search_results_limit>10</search_results_limit>
+        <show_tab_counts>true</show_tab_counts>
+        <spell_check>true</spell_check>
+        <suggestions_to_show_limit>10</suggestions_to_show_limit>
+        <sys_class_name>sys_search_context_config</sys_class_name>
+        <sys_created_by>karina.mendes</sys_created_by>
+        <sys_created_on>2023-11-08 16:52:05</sys_created_on>
+        <sys_id>9f5eb0cb379a7510fe1d82f26130cdf3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ACORDOS-DEJUR2-ESCRITORIOS AI Search Configuration</sys_name>
+        <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
+        <sys_update_name>sys_search_context_config_9f5eb0cb379a7510fe1d82f26130cdf3</sys_update_name>
+        <sys_updated_by>karina.mendes</sys_updated_by>
+        <sys_updated_on>2023-11-08 16:52:05</sys_updated_on>
+        <ts_index_group/>
+        <view/>
+    </sys_search_context_config>
+    <sys_translated_text action="delete_multiple" query="documentkey=9f5eb0cb379a7510fe1d82f26130cdf3"/>
+</record_update>
