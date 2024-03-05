@@ -47,14 +47,13 @@
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>karina.mendes</sys_created_by>
         <sys_created_on>2023-10-30 13:01:40</sys_created_on>
-        <sys_id>fc53f980975ab950c400746e6253afe1</sys_id>
         <sys_name>x_babsa_acordos_1_acoes_passiveis_de_acordo</sys_name>
         <sys_package display_value="ACORDOS - DEJUR 2" source="x_babsa_acordos_1">bf117500975ab950c400746e6253af08</sys_package>
         <sys_policy/>
         <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
         <sys_update_name>sys_dictionary_x_babsa_acordos_1_acoes_passiveis_de_acordo_null</sys_update_name>
-        <sys_updated_by>karina.mendes</sys_updated_by>
-        <sys_updated_on>2023-10-30 13:01:40</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2023-10-31 11:15:58</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

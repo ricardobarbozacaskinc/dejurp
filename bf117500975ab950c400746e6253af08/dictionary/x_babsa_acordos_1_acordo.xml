@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="67643504975ab950c400746e6253af38" extends="task" label="ACORDO" max_length="40" name="x_babsa_acordos_1_acordo" type="collection">
+        <element label="COMARCA" max_length="40" name="comarca" type="string"/>
+        <element label="Contra-Proposta" max_length="38" name="contra_proposta" type="decimal"/>
+        <element label="ENVOLVIDO" max_length="40" name="envolvido" type="string"/>
+        <element label="ESCRITORIO CONTRATADO" max_length="40" name="escritorio_contratado" type="string"/>
+        <element label="GCPJ" max_length="38" name="gcpj" type="decimal"/>
+        <element label="Histórico" max_length="4000" name="historico" read_only="true" type="journal"/>
+        <element label="Historico 2" max_length="255" name="historico_2" type="journal_input"/>
+        <element label="NOME ADVOGADO DA PARTE" max_length="40" name="nome_advogado_da_parte" type="string"/>
+        <element label="OAB DO ADV DA PARTE" max_length="40" name="oab_do_adv_da_parte" type="string"/>
+        <element label="ORGÃO JULGADOR" max_length="40" name="orgao_julgador" type="string"/>
+        <element label="SUBTIPO DE AÇÃO" max_length="40" name="subtipo_de_acao" type="string"/>
+        <element label="TIPO DE AÇÃO" max_length="40" name="tipo_de_acao" type="string"/>
+        <element label="UF" max_length="40" name="uf" type="string"/>
+        <element label="Valor Proposto" max_length="38" name="valor_proposto" type="decimal"/>
+        <element label="VALOR TETO" max_length="38" name="valor_teto" type="decimal"/>
+    </element>
+</database>

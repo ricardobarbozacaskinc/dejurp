@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="7453f980975ab950c400746e6253afdf" label="ACOES PASSIVEIS DE ACORDO" max_length="40" name="x_babsa_acordos_1_acoes_passiveis_de_acordo" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="COMARCA" max_length="200" name="comarca" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ENVOLVIDO" max_length="200" name="envolvido" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ESCRITORIO_CONTRATADO" max_length="200" name="escritorio_contratado" type="string"/>
+        <element label="GCPJ" max_length="15" name="gcpj" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="NOME_ADV_PARTE" max_length="200" name="nome_adv_parte" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="OAB_ADV_PARTE" max_length="40" name="oab_adv_parte" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ORGAO_JULGADOR" max_length="200" name="orgao_julgador" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SUBTIPO_ACAO" max_length="200" name="subtipo_acao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="TIPO_ACAO" max_length="200" name="tipo_acao" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="UF" max_length="40" name="uf" type="string"/>
+        <element label="VALOR TETO" max_length="15" name="valor_teto" type="decimal"/>
+    </element>
+</database>

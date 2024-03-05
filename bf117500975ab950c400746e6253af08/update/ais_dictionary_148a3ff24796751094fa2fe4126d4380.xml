@@ -8,12 +8,12 @@
         <derived>true</derived>
         <field/>
         <label>acordos-dejur2-dejur Search Profile Default Spell Check Dictionary</label>
-        <last_derived/>
+        <last_derived>2024-03-05 00:26:56</last_derived>
         <locale>en</locale>
         <name>x_babsa_acordos_1_acordos_dejur2_dejur_search_profile_default_spell_check_dictionary</name>
-        <publish_id/>
+        <publish_id>d4fe8c1d-5bd1-4f12-a6f9-b9282e9cc154</publish_id>
         <punctuation_sensitive>false</punctuation_sensitive>
-        <state>NEW</state>
+        <state>PUBLISHED</state>
         <sys_class_name>ais_dictionary</sys_class_name>
         <sys_created_by>karina.mendes</sys_created_by>
         <sys_created_on>2023-11-08 11:55:34</sys_created_on>

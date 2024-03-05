@@ -14,6 +14,20 @@
             <sys_updated_by>karina.mendes</sys_updated_by>
             <sys_updated_on>2023-11-08 16:52:10</sys_updated_on>
         </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>karina.mendes</sys_created_by>
+            <sys_created_on>2023-11-08 16:52:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>346e74cb479a751094fa2fe4126d4306</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_babsa_acordos_1_acordo" name="x_babsa_acordos_1_acordo" sys_domain="global" view="1f5eb0cbdf9a7510302099140a9b79f2">bc6eb0cb479a751094fa2fe4126d43cd</sys_ui_form>
+            <sys_ui_section caption="DADOS DO ACORDO" display_value="DADOS DO ACORDO" name="x_babsa_acordos_1_acordo" sys_domain="global" view="1f5eb0cbdf9a7510302099140a9b79f2">f06e74cb479a751094fa2fe4126d4305</sys_ui_section>
+            <sys_updated_by>karina.mendes</sys_updated_by>
+            <sys_updated_on>2023-11-08 16:52:10</sys_updated_on>
+        </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_babsa_acordos_1_acordo</name>
             <roles/>

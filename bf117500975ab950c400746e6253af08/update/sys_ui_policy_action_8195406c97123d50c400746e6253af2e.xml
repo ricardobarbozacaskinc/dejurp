@@ -17,7 +17,7 @@
         <sys_updated_by>karina.mendes</sys_updated_by>
         <sys_updated_on>2023-10-31 18:19:09</sys_updated_on>
         <table>x_babsa_acordos_1_acordo</table>
-        <ui_policy display_value="Caso o acordo seja aceito logo de primeira, todos os campos são travados de forma que o registro seja finalizado.">0d3397d447debd5094fa2fe4126d4369</ui_policy>
+        <ui_policy display_value="Caso o acordo seja aceito logo de primeira, ou caso o autor não queira acordo algum, todos os campos são travados de forma que o registro seja finalizado.">0d3397d447debd5094fa2fe4126d4369</ui_policy>
         <visible>ignore</visible>
     </sys_ui_policy_action>
 </record_update>

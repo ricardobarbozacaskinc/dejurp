@@ -417,10 +417,10 @@
         <sys_created_by>karina.mendes</sys_created_by>
         <sys_created_on>2023-11-06 14:03:59</sys_created_on>
         <sys_id>b9b40a9e471eb11094fa2fe4126d435f</sys_id>
-        <sys_mod_count>16</sys_mod_count>
+        <sys_mod_count>22</sys_mod_count>
         <sys_scope display_value="ACORDOS - DEJUR 2">bf117500975ab950c400746e6253af08</sys_scope>
-        <sys_updated_by>karina.mendes</sys_updated_by>
-        <sys_updated_on>2023-11-09 10:29:18</sys_updated_on>
+        <sys_updated_by>jsaes</sys_updated_by>
+        <sys_updated_on>2024-03-04 23:23:40</sys_updated_on>
         <ui_id>574533a5-4d6d-4541-a7f4-9826853cc9d3</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b9b40a9e471eb11094fa2fe4126d435f"/>
@@ -1098,14 +1098,14 @@
     <sys_hub_flow action="UPDATE">
         <sys_id>ff3f6fec4752319094fa2fe4126d438e</sys_id>
         <latest_snapshot>1fb44a9e471eb11094fa2fe4126d435c</latest_snapshot>
-        <compiler_build>glide-vancouver-07-06-2023__patch2-hotfix1-10-04-2023_10-06-2023_1235.zip</compiler_build>
+        <compiler_build>glide-vancouver-07-06-2023__patch4-hotfix1b-01-25-2024_02-06-2024_1013.zip</compiler_build>
     </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ff3f6fec4752319094fa2fe4126d438e^sys_idNOT IN165030939712b510c400746e6253aff2"/>
     <sys_flow_trigger_plan action="INSERT_OR_UPDATE">
         <binding_strategy>com.snc.process_flow.engine.binding.OncePerRecord</binding_strategy>
-        <plan/>
+        <plan>{"persistor":{"@class":".ChunkingPlanPersistor","table":"sys_flow_trigger_plan","id":"165030939712b510c400746e6253aff2","name":"plan","plan_signature":null}}</plan>
         <plan_id>ff3f6fec4752319094fa2fe4126d438e</plan_id>
-        <snapshot>1fb44a9e471eb11094fa2fe4126d435c</snapshot>
+        <snapshot>6c0a3c30eb70c2108e1bff7bcad0cd1c</snapshot>
         <sys_created_by>karina.mendes</sys_created_by>
         <sys_created_on>2023-11-09 10:29:17</sys_created_on>
         <sys_domain>global</sys_domain>

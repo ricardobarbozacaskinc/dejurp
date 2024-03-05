@@ -7,7 +7,7 @@
         <event_mappings>[
     
 ]</event_mappings>
-        <macroponent display_value="ACORDO">706e34cb479a751094fa2fe4126d43d9</macroponent>
+        <macroponent display_value="ACORDO Record Page">706e34cb479a751094fa2fe4126d43d9</macroponent>
         <macroponent_config>{
     "bare": {
         "type": "JSON_LITERAL",
